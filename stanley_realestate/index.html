@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scot Stanley</title>
+
+    <!--font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Regular CSS style-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@300;400;500&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <header class>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="logo" src="/images/real-logo.png" alt="logo">
+                    <h1 id="logo-text">Scott Stanley</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">My Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End Navbar-->
+
+    <!-- Image Carousel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="550">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="6500">
+                <img src="/images/1.jpg" alt="slide-1" class="w-100 h-100">
+                <div class="container-text">
+                    <h2 class="img-text"> The Best Way to Buy<br>
+                        & Sell Your Home
+                    </h2>
+                    <h3 class="img-text" id="sm">In The Middle Georgia Area</h3>
+                    <a href="#" class="btn btn-lg btn-primary">Contact Me Today</a>
+                </div>
+            </div>
+
+
+            <div class="carousel-item" data-bs-interval="6500">
+                <img src="/images/2.jpg" alt="slide-2" class="w-100 h-100">
+                <div class="container-text">
+                    <h2 class="img-text"> The Best Way to Buy<br>
+                        & Sell Your Home
+                    </h2>
+                    <h3 class="img-text" id="sm">In The Middle Georgia Area</h3>
+                    <a href="#" class="btn btn-lg btn-primary">Contact Me Today</a>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="6500">
+                <img src="/images/3.jpg" alt="slide-3" class="w-100 h-100">
+                <div class="container-text">
+                    <h2 class="img-text"> The Best Way to Buy<br>
+                        & Sell Your Home
+                    </h2>
+                    <h3 class="img-text" id="sm">In The Middle Georgia Area</h3>
+                    <a href="#" class="btn btn-lg btn-primary">Contact Me Today</a>
+                </div>
+            </div>
+
+            <!--Next & Previous button-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--About section-->
+    <div class="container" id="about">
+        <!--About Section heading text-->
+        <div class="cont-heading">
+            <h3 class="realhead" id="smaller-text">Realtor</h3>
+            <h2 class="realhead">Scott Stanley</h2>
+        </div>
+        <!--Line accent-->
+        <div class="line-accent"></div>
+        <!--About Section Text-->
+        <div class="row">
+            <div class="about-section-main col-lg-8 col-md-8 col-sm-12">
+                <p>
+                    I believe that personal interaction is very important
+                    when guiding someone through one of the largest financial
+                    decisions of their life. I always care for my clients with
+                    the same level of integrity and respect I would require for
+                    my own family. I live and work in the community alongside my
+                    clients, and always want to invest in the future for our children.
+                    It would be my pleasure to assist you with the best solutions for
+                    your Real Estate needs. I hope to earn your trust and be your
+                    guide for not only this transaction, but as your 'forever' realtor.
+                </p>
+            </div>
+            <!--About Section pitcture-->
+            <!--Need to fix centering of large breakpoint of img-->
+            <div class="about-section-img col-lg-4 col-md-12 col-sm-12 image-container">
+                <img src="/images/scott-pic.jpeg" alt="scott-pic" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Services section-->
+    <section class="container-services" id="services">
+        <h2 id="service-head">My Services</h2>
+
+        <div class="services row">
+            <!--service-1-->
+            <div class="service-1 col-md-12 col-lg-4 col-xl-4 col-xl-4">
+                <i class="fas fa-home"></i>
+                <h4 class="service-cap">Buy Your<br>
+                    Dream Home
+                </h4>
+            </div>
+            <!--service-2-->
+            <div class="service-2 col-md-12 col-lg-4 col-xl-4 col-xl-4">
+                <i class="fas fa-sign"></i>
+                <h4 class="service-cap">Sell Your <br>
+                    Home
+                </h4>
+            </div>
+            <!--service-3-->
+            <div class="service-3 col-md-12 col-lg-4 col-xl-4 col-xl-4">
+                <i class="fas fa-laptop-house"></i>
+                <h4 class="service-cap">Investment<br>
+                    Properties
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+
+    <div class="container-fluid">
+
+    </div>
+
+
+
+
+
+
+
+    <!--Section: Contact v.2-->
+    <section class="mb-4" id="contact">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me
+            directly. I will get back to you within
+            a matter of hours to help you.</p>
+
+        <div class="row w-50 mx-auto">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="firstName" class="">First Name</label>
+                                <input type="text" id="firstName" name="firstName" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="lastName" class="">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="phone" class="">Phone Number</label>
+                                <input type="number" id="phone" name="phone" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Your email</label>
+                                <input type="text" id="email" name="email" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="subject" class="">Subject</label>
+                                <select name="" id="subject" name="subject" class="custom-select col-12">
+
+                                    <option value="" selected>I'm interested in buying a home</option>
+                                    <option value="">I'm interested in selling a home</option>
+                                    <option value="">I'm interested in buying and selling</option>
+                                    <option value="">I'm interested in finding a home to rent</option>
+                                    <option value="">Other reason to contact agent</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <label for="message">Your message</label>
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center mt-3 text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>2189 Pace St.
+                            Covington, GA 30014</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p> (470) 273-4814</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>scottstanleyrealtor@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+
+    <footer class="footer text-center">
+        <div class="container p-4">
+            <section class="mb-4">
+                <h3 id="white">Follow Me on social Media</h3>
+                <!--Middle Footer Social Media icons-->
+                <div class="social-media row w-50 mx-auto">
+                    <!--faceboook Icon-->
+                    <div class="facebook col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <a class="btn" href="https://www.facebook.com/scott.stanley.3344" role="button" target="_blank">
+                            <i class="fab fa-facebook fa-3x"></i></a>
+                    </div>
+
+                    <!--MLS link-->
+                    <div class="MLS col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <a class="btn btn-floating m-1"
+                            href="https://www.georgiamls.com/real-estate-agents/detail.cfm?agentID=STANLEYSCOT"
+                            role="button" target="_blank">
+                            <i class="fas fa-house-user fa-3x"></i></a>
+                    </div>
+
+                    <!--Instagram link-->
+                    <div class="instagram col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <a class="btn btn-floating m-1" href="https://www.instagram.com/scottstanleyss/" role="button"
+                            target="_blank">
+                            <i class="fab fa-instagram fa-3x"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center text-white text-muted p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright: All rights reserved
+            <a class="text-white" href="https://mdbootstrap.com/"></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Jquerry-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <!--Font awesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+        integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+        crossorigin="anonymous"></script>
+    <!--Regular js-->
+    <script src="app.js"></script>
+</body>
+
+</html>
